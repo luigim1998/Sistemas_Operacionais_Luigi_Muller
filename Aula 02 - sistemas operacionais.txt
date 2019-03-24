@@ -1,0 +1,26 @@
+1)O que faz um processador? Cite suas características:
+ Gerencia todo o sistema computacional, ele executa as instruções da memória principal. Pela arquitetura de Von Neumann o processador é composto pela unidade controle, unidade lógico-aritmético e os registradores.
+
+
+2) Explique com suas palavras o ciclo básico do processador: 
+ Busca da instrução na memória, leitura dos registradores e decodificação, calculo na unidade lógica aritmética, acesso na memória, escrita de retorno no registrador
+
+
+3) Explique a diferença entre os processadores comum, pipeline e superescalares:
+ Processador comum: aquele que executa uma instrução em um único ciclo.
+ Processador pipeline: aquele que executa simultaneamente várias fases de instruções diferentes.
+ Processador superescalares: 
+
+
+4) O que são chamadas de sistemas e como podem ser classificados?
+ São a forma que os programas de usuário solicitam os serviços do sistema operacional. “que por meio de uma instrução TRAP alterna o modo usuário para o modo núcleo e passa o controle para o sistema operacional. Quando o trabalho do sistema operacional está terminado, o controle é retornado para o programa do usuário na instrução seguinte à da chamada ao sistema.”
+4.1) Chamadas ao sistema para gerenciamento de processos (ex: criação de processos);
+4.2) Chamadas ao sistema para gerenciamento de arquivos (ex: leitura e escrita de arquivos);
+4.3) Chamadas ao sistema para gerenciamento de diretórios (ex: criar e deletar pasta);
+4.4) Outros tipos de chamadas ao sistema (ex:);
+
+
+5) Quais são as estruturas de Sistemas Operacionais estudadas?
+
+
+6) Qual a diferença entre a estrutura de máquinas virtuais e exonúcleo?
