@@ -1,0 +1,10 @@
+1. Conceitue com suas palavras o que é um Sistema Operacional?
+
+2. Pesquise sobre as gerações de computadores e descreva cada uma delas, explicitando o que exatamente as diferenciava (Dica: em algumas referências são 4 gerações em outras 5)
+
+3. O que contribui para que os computadores, na sua evolução, sejam significativamente menores que seus antecessores? Cite características que marcaram essa evolução.
+
+4. Quais softwares atuam no modo núcleo e no modo usuário?
+
+
+
