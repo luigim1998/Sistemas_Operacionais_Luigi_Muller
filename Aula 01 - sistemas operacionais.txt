@@ -1,10 +1,15 @@
 1. Conceitue com suas palavras o que é um Sistema Operacional?
+ Software responsável por gerenciar os componentes do computador (incluindo hardware de entrada e saída), os processos  controlar a interação do hardware da máquina com o usuário e seus programas.
+
 
 2. Pesquise sobre as gerações de computadores e descreva cada uma delas, explicitando o que exatamente as diferenciava (Dica: em algumas referências são 4 gerações em outras 5)
+ 1ª geração(1945-1955): Nos meados da década de 40, Howard Aiken em Harvard, John von Neumann no Instituto de Estudos Avançados  de Princeton, J. Presper Eckert e William Mauchley na Universidade da Pensilvânia e Konrad Zuse na Alemanha construíram máquinas de calcular. Utilizavam relés mecânicos (ciclos eram medidos em segundos). Foram substituídos por válvulas. Toda a programação era feita em código absoluto e muitas vezes conectando plugs em painéis para controlar as funções básicas em máquinas. Os sistemas operacionais não existiam. Na década de 50, esse processo havia se aprimorado com cartões perfurados, usando para escrever o programa em vez de painéis de programação. 
+ 2ª geração(1955-1965): Introdução de transistores. Computadores com tempo de vida maior. Essas máquinas eram denominados mainframes. Os jobs (programa ou conjunto de programas) eram enviados para o computador em cartões perfurados.
 
 3. O que contribui para que os computadores, na sua evolução, sejam significativamente menores que seus antecessores? Cite características que marcaram essa evolução.
+ A miniaturização e melhoria dos componentes (algumas vez a troca de tecnologia) que contribuem na redução de todo o computador.
+
 
 4. Quais softwares atuam no modo núcleo e no modo usuário?
-
-
-
+ Modo núcleo: Driver de dispositivos, gerenciador de processos, gerenciador de memória, sistema de arquivos;
+ Modo usuário: navegador de internet, reprodutor de fotos, editor de texto.
