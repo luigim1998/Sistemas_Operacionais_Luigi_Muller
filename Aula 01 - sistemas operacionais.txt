@@ -4,7 +4,19 @@
 
 2. Pesquise sobre as gerações de computadores e descreva cada uma delas, explicitando o que exatamente as diferenciava (Dica: em algumas referências são 4 gerações em outras 5)
  1ª geração(1945-1955): Nos meados da década de 40, Howard Aiken em Harvard, John von Neumann no Instituto de Estudos Avançados  de Princeton, J. Presper Eckert e William Mauchley na Universidade da Pensilvânia e Konrad Zuse na Alemanha construíram máquinas de calcular. Utilizavam relés mecânicos (ciclos eram medidos em segundos). Foram substituídos por válvulas. Toda a programação era feita em código absoluto e muitas vezes conectando plugs em painéis para controlar as funções básicas em máquinas. Os sistemas operacionais não existiam. Na década de 50, esse processo havia se aprimorado com cartões perfurados, usando para escrever o programa em vez de painéis de programação. 
- 2ª geração(1955-1965): Introdução de transistores. Computadores com tempo de vida maior. Essas máquinas eram denominados mainframes. Os jobs (programa ou conjunto de programas) eram enviados para o computador em cartões perfurados.
+ 
+ 2ª geração(1955-1965): Introdução de transistores. Computadores com tempo de vida maior. Essas máquinas eram denominados mainframes. Os jobs (programa ou conjunto de programas) eram enviados para o computador em cartões perfurados. Era necessário colocar os cartões de um job para ser processado, receber a saída para colocar um novo job.
+ O sistema em lote (batch) tinha a ideia de que vários jobs eram gravados em uma fita magnética (IBM 1401). Outro computador (IBM 7094) fazia a computação e gravava em outra fita, um programa precursor do sistema operacional era responsável por executar cada job e as operações como carregar compilador. No final outro computador (IBM 1401) imprimia a saída.
+ 
+ 3ª geração(1965-1980): Início dos Circuitos Integrados e multiprogramação
+ Haviam dois tipos de computadores:
+   1) científico (cálculo numérico), IBM 7094
+   2) comerciais (ordenação e impressão de fitas), IBM 1401
+  Era difícil manter essas duas linhas de produtos. E os clientes desejavam computadores maiores que executassem seus programas antigos. Como solução a IBM criou o System/360, uma série de máquinas cujos softwares eram compatíveis. A desvantagem do System/360 era que o software inclusive o SO precisava ser executado em sistemas de vários tamanhos, ambientes e poucos e muitos periféricos. O OS/360 era grande e cheio de erros.
+  Para reduzir a ociosidade do processador pela espera da operação de E/S. Eles criaram a multiprogramação que enquanto um job está aguardando a operação de E/S, outro job está executando. Se fosse possível salvar vários jobs na memória, o processador estaria quase 100% ocupado. Ele tinha um hardware para proteger cada job.
+  Esses sistemas operacionais tinham a capacidade de que quando um job fosse completado, o sistema operacional ocuparia o espaço com um novo job, o nome é spooling.
+  Foi criado timesharing, uma variante da multiprogramação no qual cada usuário se conectava por um terminal online e que a CPU aloca para os jobs que estão a requisitando.
+  MULTICS foi uma ideia ambicioso de 'computador utilitário', uma máquina que suportasse simultaneamente centenas de usuário. O conceito foi levado para os servidores.
 
 3. O que contribui para que os computadores, na sua evolução, sejam significativamente menores que seus antecessores? Cite características que marcaram essa evolução.
  A miniaturização e melhoria dos componentes (algumas vez a troca de tecnologia) que contribuem na redução de todo o computador.
