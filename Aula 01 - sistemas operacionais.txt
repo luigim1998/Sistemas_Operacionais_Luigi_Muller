@@ -18,6 +18,9 @@
   Foi criado timesharing, uma variante da multiprogramação no qual cada usuário se conectava por um terminal online e que a CPU aloca para os jobs que estão a requisitando.
   MULTICS foi uma ideia ambicioso de 'computador utilitário', uma máquina que suportasse simultaneamente centenas de usuário. O conceito foi levado para os servidores.
 
+  4ª geração (1980-presente): Computadores Pessoais
+  Circuitos integrados em larga escala.
+
 3. O que contribui para que os computadores, na sua evolução, sejam significativamente menores que seus antecessores? Cite características que marcaram essa evolução.
  A miniaturização e melhoria dos componentes (algumas vez a troca de tecnologia) que contribuem na redução de todo o computador.
 
