@@ -19,12 +19,5 @@
   MULTICS foi uma ideia ambicioso de 'computador utilitário', uma máquina que suportasse simultaneamente centenas de usuário. O conceito foi levado para os servidores.
 
   4ª geração (1980-presente): Computadores Pessoais
-  Circuitos integrados em larga escala.
-
-3. O que contribui para que os computadores, na sua evolução, sejam significativamente menores que seus antecessores? Cite características que marcaram essa evolução.
- A miniaturização e melhoria dos componentes (algumas vez a troca de tecnologia) que contribuem na redução de todo o computador.
-
-
-4. Quais softwares atuam no modo núcleo e no modo usuário?
- Modo núcleo: Driver de dispositivos, gerenciador de processos, gerenciador de memória, sistema de arquivos;
- Modo usuário: navegador de internet, reprodutor de fotos, editor de texto.
+  Circuitos integrados em larga escala. Com isso, um indivíduo podeira ter seu próprio computador pessoal. CP/M foi criado para o 8080 (lançado em 1974) da Intel e ele era um sistema operacional baseado em disco. Na década de 1980, a IBM projetou o IBM PC e buscou um software para ser executado, após a recusa dos criadores do CP/M, Bill Gates vendeu o DOS (Disk Operating System), após algumas modificações pedidas pela IBM, a Microsoft lançou o MS-DOS. Na década de 1960 foi lançado a GUI pelo Doug engelbert, que foi adotado pela Xerox PARC. Steve Jobs ao ter visto a GUI na PARC, percebeu o potencial do produto e o implementou em um produto da Apple, o Lisa (caro demais). Após isso foi lançado o Macintosh, que foi um sucesso por ser mais barato e amigável ao usuário. Em 1995 foi lançado o Windows, que rodava em cima do MS-DOS.
+  Nessa época houve um desenvolvimento em meados da década de 1980 do crescimento das redes de computadores pessoais executando sistemas operacionais de rede e sistemas operacionais distribuídos (TANENBAUM e VAN STEEN, 2007). Em um sistema operacional de rede, os usuários estão conscientes da existência de múltiplos computadores e podem conectar-se a máquinas remotas e copiar arquivos de uma máquina para outra. Cada máquina executa seu próprio sistema operacional e tem seu próprio usuário local (ou usuários). Um sistema operacional distribuído, por sua vez,  aparece para os seus usuários como um sistema monoprocessador tradicional, embora seja na realidade composto de múltiplos processadores. Os usuários não precisam saber onde os programas estão sendo executados ou onde estão localizados os seus arquivos; isso tudo deve ser cuidado automática e eficientemente pelo sistema operacional.

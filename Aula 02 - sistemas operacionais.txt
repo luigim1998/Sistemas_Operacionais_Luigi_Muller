@@ -1,15 +1,15 @@
 1)O que faz um processador? Cite suas características:
- Gerencia todo o sistema computacional, ele executa as instruções da memória principal. Pela arquitetura de Von Neumann o processador é composto pela unidade controle, unidade lógico-aritmético e os registradores.
+ Gerencia todo o sistema computacional, ele executa as instruções da memória principal. Pela arquitetura de Von Neumann o processador é composto pela unidade de controle, unidade lógico-aritmético e os registradores.
 
 
 2) Explique com suas palavras o ciclo básico do processador: 
- Busca da instrução na memória, leitura dos registradores e decodificação, calculo na unidade lógica aritmética, acesso na memória, escrita de retorno no registrador
+  O ciclo básico de toda CPU é buscar a primeira instrução da memória, decodificá-la para determinar o seu tipo e operandos, executá-la, e então buscar, decodificar e executar as instruções subsequentes.
 
 
 3) Explique a diferença entre os processadores comum, pipeline e superescalares:
  Processador comum: aquele que executa uma instrução em um único ciclo.
- Processador pipeline: aquele que executa simultaneamente várias fases de instruções diferentes.
- Processador superescalares: 
+ Processador pipeline: aquele que executa simultaneamente várias fases de instruções diferentes na unidade.
+ Processador superescalares: Ainda mais avançada que um projeto de pipeline é uma CPU superescalar. Nesse projeto, unidades múltiplas de execução estão presentes. Duas ou mais instruções são buscadas ao mesmo tempo, decodificadas e jogadas em um buffer de instrução até que possam ser executadas.
 
 
 4) O que são chamadas de sistemas e como podem ser classificados?
