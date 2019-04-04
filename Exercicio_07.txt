@@ -1,0 +1,15 @@
+1) "Na prática, um sistema de arquivo (file system, do inglês) é um conjunto de estruturas lógicas, ou seja, feitas diretamente via software, que permite ao sistema operacional ter acesso e controlar os dados gravados no disco." (Site: https://www.techtudo.com.br/dicas-e-tutoriais/noticia/2016/02/entenda-o-que-e-sistema-de-arquivos-e-sua-utilidade-no-pc-e-no-celular.html)
+O sistema de arquivos define a forma como os bytes estarão organizados na memória e a forma que o sistema operacional.
+
+2)
+
+3)
+
+4) d: indica que aquele item é um diretório.
+w: permissão de escrita no arquivo.
+r: permissão de leitura do arquivo.
+x: permissão de execução do arquivo ou acesso de diretório
+
+5) pwd
+
+6) reboot ou shutdown -r
