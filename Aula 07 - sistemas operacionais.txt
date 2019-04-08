@@ -1,0 +1,26 @@
+1. Explique a função dos Sistemas de Arquivos. 2. O que são drivers?
+
+3. Comente sobre as funções específicas dos dispositivos de Entrada/Saída.
+
+4. Ao verificar o conteúdo de um diretório, pode-se notar que há letras que diferenciam os arquivos ou diretórios listados, onde cada letra tem um significado específico. Descreva o significado de cada uma das letras abaixo.
+d:             w:             r:             x:
+
+5. Qual o comando utilizado para retornar ao usuário o diretório corrente? 6. Quais os comandos utilizados para reiniciar o sistema operacional?
+
+7. Qual comando é possível visualizar a data de modificação do arquivo ou diretório?
+ 
+8. Qual o comando utilizado de ajuda de um comando, que exibe seu manual na tela?
+
+9. Qual o comando utilizado para criar um arquivo “teste.txt” vazio? Demonstre sua sintaxe.
+
+10. Ao verificar o conteúdo de um diretório, pode-se notar que há diferenças nas cores dos arquivos ou diretórios listados, onde cada cor tem um significado específico. Descreva o significado de cada cor abaixo. Azul escuro:        Branco:        Vermelho:        Verde:
+
+11. Execute e apresente os resultados (incluindo figuras e descrições) para criação de um modulo no kernel do linux.
+
+12. Escreva um program na linguagem de programação C utilizando threads para identificar todos os números pares de uma lista com N números.
+
+13. Escreva um program na linguagem de programação C utilizando threads para somar todos os números de uma lista com N números.
+
+14. Escreva  um program na linguagem de programação C utilizando threads no modo kernel e modo usuário.
+
+15. Utilizando docker/containers simule a execução de dois diferentes sistemas operacionais (além do seu OS) que fazem a leitura e escrita de arquivos no seu sistema operacional host.

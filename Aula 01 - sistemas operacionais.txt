@@ -1,10 +1,10 @@
 1. Conceitue com suas palavras o que é um Sistema Operacional?
- Software responsável por gerenciar os componentes do computador (incluindo hardware de entrada e saída), os processos  controlar a interação do hardware da máquina com o usuário e seus programas.
+ Software responsável por gerenciar os componentes do computador (incluindo hardware de entrada e saída), os processos, controlar a interface do hardware da máquina com o usuário e seus programas e fornecer uma interface mais simples para os programadores.
 
 
 2. Pesquise sobre as gerações de computadores e descreva cada uma delas, explicitando o que exatamente as diferenciava (Dica: em algumas referências são 4 gerações em outras 5)
- 1ª geração(1945-1955): Nos meados da década de 40, Howard Aiken em Harvard, John von Neumann no Instituto de Estudos Avançados  de Princeton, J. Presper Eckert e William Mauchley na Universidade da Pensilvânia e Konrad Zuse na Alemanha construíram máquinas de calcular. Utilizavam relés mecânicos (ciclos eram medidos em segundos). Foram substituídos por válvulas. Toda a programação era feita em código absoluto e muitas vezes conectando plugs em painéis para controlar as funções básicas em máquinas. Os sistemas operacionais não existiam. Na década de 50, esse processo havia se aprimorado com cartões perfurados, usando para escrever o programa em vez de painéis de programação. 
- 
+ 1ª geração(1945-1955): Nos meados da década de 40, Howard Aiken em Harvard, John von Neumann no Instituto de Estudos Avançados  de Princeton, J. Presper Eckert e William Mauchley na Universidade da Pensilvânia e Konrad Zuse na Alemanha construíram máquinas de calcular. Utilizavam relés mecânicos (ciclos eram medidos em segundos). Foram substituídos por válvulas. Toda a programação era feita em código absoluto e muitas vezes conectando plugs em painéis para controlar as funções básicas em máquinas. Os sistemas operacionais não existiam. Na década de 50, esse processo havia se aprimorado com cartões perfurados, usando para escrever o programa em vez de painéis de programação.
+
  2ª geração(1955-1965): Introdução de transistores. Computadores com tempo de vida maior. Essas máquinas eram denominados mainframes. Os jobs (programa ou conjunto de programas) eram enviados para o computador em cartões perfurados. Era necessário colocar os cartões de um job para ser processado, receber a saída para colocar um novo job.
  O sistema em lote (batch) tinha a ideia de que vários jobs eram gravados em uma fita magnética (IBM 1401). Outro computador (IBM 7094) fazia a computação e gravava em outra fita, um programa precursor do sistema operacional era responsável por executar cada job e as operações como carregar compilador. No final outro computador (IBM 1401) imprimia a saída.
  
@@ -21,3 +21,9 @@
   4ª geração (1980-presente): Computadores Pessoais
   Circuitos integrados em larga escala. Com isso, um indivíduo podeira ter seu próprio computador pessoal. CP/M foi criado para o 8080 (lançado em 1974) da Intel e ele era um sistema operacional baseado em disco. Na década de 1980, a IBM projetou o IBM PC e buscou um software para ser executado, após a recusa dos criadores do CP/M, Bill Gates vendeu o DOS (Disk Operating System), após algumas modificações pedidas pela IBM, a Microsoft lançou o MS-DOS. Na década de 1960 foi lançado a GUI pelo Doug engelbert, que foi adotado pela Xerox PARC. Steve Jobs ao ter visto a GUI na PARC, percebeu o potencial do produto e o implementou em um produto da Apple, o Lisa (caro demais). Após isso foi lançado o Macintosh, que foi um sucesso por ser mais barato e amigável ao usuário. Em 1995 foi lançado o Windows, que rodava em cima do MS-DOS.
   Nessa época houve um desenvolvimento em meados da década de 1980 do crescimento das redes de computadores pessoais executando sistemas operacionais de rede e sistemas operacionais distribuídos (TANENBAUM e VAN STEEN, 2007). Em um sistema operacional de rede, os usuários estão conscientes da existência de múltiplos computadores e podem conectar-se a máquinas remotas e copiar arquivos de uma máquina para outra. Cada máquina executa seu próprio sistema operacional e tem seu próprio usuário local (ou usuários). Um sistema operacional distribuído, por sua vez,  aparece para os seus usuários como um sistema monoprocessador tradicional, embora seja na realidade composto de múltiplos processadores. Os usuários não precisam saber onde os programas estão sendo executados ou onde estão localizados os seus arquivos; isso tudo deve ser cuidado automática e eficientemente pelo sistema operacional.
+
+3)
+
+4)
+ Modo usuário: Editor de texto, Navegador Web;
+ Modo núcleo: driver, gerenciador e escalonador de processos, de dispositivos de E/S e de sistemas de arquivos.

@@ -1,5 +1,5 @@
 1)O que faz um processador? Cite suas características:
- Gerencia todo o sistema computacional, ele executa as instruções da memória principal. Pela arquitetura de Von Neumann o processador é composto pela unidade de controle, unidade lógico-aritmético e os registradores.
+ Gerencia todo o sistema computacional, ele busca as instruções da memória principal e as executa. Pela arquitetura de Von Neumann o processador é composto pela unidade de controle, unidade lógico-aritmético e os registradores.
 
 
 2) Explique com suas palavras o ciclo básico do processador: 
@@ -7,9 +7,9 @@
 
 
 3) Explique a diferença entre os processadores comum, pipeline e superescalares:
- Processador comum: aquele que executa uma instrução em um único ciclo.
- Processador pipeline: aquele que executa simultaneamente várias fases de instruções diferentes na unidade.
- Processador superescalares: Ainda mais avançada que um projeto de pipeline é uma CPU superescalar. Nesse projeto, unidades múltiplas de execução estão presentes. Duas ou mais instruções são buscadas ao mesmo tempo, decodificadas e jogadas em um buffer de instrução até que possam ser executadas.
+ Processador comum: executa uma instrução em um único ciclo.
+ Processador pipeline: executa simultaneamente várias instruções diferentes na unidade. "Por exemplo, uma CPU pode ter unidades de busca, decodificação e execução separadas, assim enquanto ela está executando a instrução n, poderia também estar decodificando a instrução n + 1 e buscando a instrução n + 2"(Tanenbaum, 2016)
+ Processador superescalares: Ainda mais avançada que um projeto de pipeline é uma CPU superescalar. Nesse projeto, múltiplas unidades de execução estão presentes. Duas ou mais instruções são buscadas ao mesmo tempo, decodificadas e jogadas em um buffer de instrução até que possam ser executadas. Quando uma unidade de execução fica disponível, ela busca uma intrução no buffer e a executa.
 
 
 4) O que são chamadas de sistemas e como podem ser classificados?
@@ -17,10 +17,16 @@
 4.1) Chamadas ao sistema para gerenciamento de processos (ex: criação de processos);
 4.2) Chamadas ao sistema para gerenciamento de arquivos (ex: leitura e escrita de arquivos);
 4.3) Chamadas ao sistema para gerenciamento de diretórios (ex: criar e deletar pasta);
-4.4) Outros tipos de chamadas ao sistema (ex:);
+4.4) Outros tipos de chamadas ao sistema (ex: mudar o tipo de proteção do arquivo, retorna o tempo);
 
 
 5) Quais são as estruturas de Sistemas Operacionais estudadas?
-
+ Sistemas Monolítico: O sistema operacional é executado como um único programa em modo núcleo. O sistema operacional é escrito como uma coleção de rotinas, ligadas a um único grande programa binário executável. Quando a técnica é usada, cada procedimento no sistema é livre para chamar qualquer outro se necessário, mas ter milhares de procedimentos que podem chamar um ao outro sem restrições pode também levar a um sistema difícil de lidar e compreender. Também, uma quebra em qualquer uma dessas rotinas derrubará todo o sistema operacional.
+ Sistemas de camadas: O sistema operacional é organizado em camadas de forma que as camadas acima não tenham de se preocupar com a função daquela camada.
+ Micronúcleo: A ideia básica é atingir uma alta confiabilidade através da divisão do sistema operacional em módulos pequenos e bem definidos, apenas um dos quais — o micronúcleo — é executado em modo núcleo e o resto é executado como processos de usuário comuns relativamente sem poder. Caso um driver em modo usuário gere erro, não trava o sistema todo.
+ Modelo cliente-servidor: ele distingue duas classes de processos, os servidores, que prestam algum serviço, e os clientes, que usam esses serviços. Esse modelo é conhecido como o modelo cliente-servidor. A essência encontra-se na presença de processos clientes e processos servidores. A comunicação entre clientes e servidores é realizada muitas vezes pela troca de mensagens. Para obter um serviço, um processo cliente constrói uma mensagem dizendo o que ele quer e a envia ao serviço apropriado.
+ Máquinas Virtuais:  Diferentemente de todos os outros sistemas operacionais, essas máquinas virtuais não são máquinas estendidas, com arquivos e outros aspectos interessantes. Em vez disso, elas são cópias exatas do hardware exposto, incluindo modos núcleo/usuário, E/S, interrupções e tudo mais que a máquina tem. Como cada máquina virtual é idêntica ao hardware original, cada uma delas pode executar qualquer sistema operacional capaz de ser executado diretamente sobre o hardware. Máquinas virtuais diferentes podem — e frequentemente o fazem — executar diferentes sistemas operacionais. 
+ Exonúcleo: Um exonúcleo é um tipo de núcleo que não abstrai hardware em modelos teóricos. Ao invés disso ele aloca recursos físicos de hardware, como o tempo de um processador, páginas de memória, e blocos de disco, para diferentes programas. Um programa rodando em um exonúcleo pode ligar para uma biblioteca do sistema operativo que usa o exonúcleo para simular as astrações de um sistema operativo conhecido, ou ele pode desenvolver abstrações específicas para aquele aplicativo para ume performance superior.
 
 6) Qual a diferença entre a estrutura de máquinas virtuais e exonúcleo?
+ 
