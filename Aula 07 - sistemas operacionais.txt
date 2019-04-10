@@ -1,19 +1,35 @@
-1. Explique a função dos Sistemas de Arquivos. 2. O que são drivers?
+1. Explique a função dos Sistemas de Arquivos.
+
+2. O que são drivers?
+É o programa do sistema operacional que se comunica com o controlador do dispositivo, enviando comandos para o dispositivo e aceitando resposta.
 
 3. Comente sobre as funções específicas dos dispositivos de Entrada/Saída.
 
 4. Ao verificar o conteúdo de um diretório, pode-se notar que há letras que diferenciam os arquivos ou diretórios listados, onde cada letra tem um significado específico. Descreva o significado de cada uma das letras abaixo.
-d:             w:             r:             x:
+d: indica que aquele item é um diretório.
+w: permissão de escrita no arquivo.
+r: permissão de leitura do arquivo.
+x: permissão de execução do arquivo ou acesso de diretório
 
-5. Qual o comando utilizado para retornar ao usuário o diretório corrente? 6. Quais os comandos utilizados para reiniciar o sistema operacional?
+5. Qual o comando utilizado para retornar ao usuário o diretório corrente?
+pwd
+
+6. Quais os comandos utilizados para reiniciar o sistema operacional?
+reboot ou shutdown -r
 
 7. Qual comando é possível visualizar a data de modificação do arquivo ou diretório?
  
 8. Qual o comando utilizado de ajuda de um comando, que exibe seu manual na tela?
+man <comando desejado>
 
 9. Qual o comando utilizado para criar um arquivo “teste.txt” vazio? Demonstre sua sintaxe.
+>teste.txt
 
-10. Ao verificar o conteúdo de um diretório, pode-se notar que há diferenças nas cores dos arquivos ou diretórios listados, onde cada cor tem um significado específico. Descreva o significado de cada cor abaixo. Azul escuro:        Branco:        Vermelho:        Verde:
+10. Ao verificar o conteúdo de um diretório, pode-se notar que há diferenças nas cores dos arquivos ou diretórios listados, onde cada cor tem um significado específico. Descreva o significado de cada cor abaixo.
+Azul claro: links simbólicos
+Branco:
+Verde: arquivos executáveis
+Vermelho: arquivos compactados, pacotes rpm, deb
 
 11. Execute e apresente os resultados (incluindo figuras e descrições) para criação de um modulo no kernel do linux.
 
