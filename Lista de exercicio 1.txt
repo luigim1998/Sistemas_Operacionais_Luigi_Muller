@@ -1,0 +1,52 @@
+Questão 1:
+sistema operacional é o software responsável pelo controle dos recursos do hardware, da interface do usuário e programas com o hardware e controla a execução dos programas.
+
+Questão 2:
+a multiprogramação era uma técnica que permitia a troca de um programa que não estava utilizando a CPU para outro utilizá-lo.
+
+Questão 3:
+Redução e aproveitamento de componentes e criação de novas tecnologias de hardware. Podemos citar a passagem das válvulas para os transistores (que eram menores, mais econômicos e mais seguros), a criação dos circuitos integrados que embutiam em um único chip, milhares e até milhões de transistores, a criação de novas tecnologia como o SSD.
+
+Questão 4:
+Modo usuário: editor de vídeo, navegador web;
+Modo núcleo: driver, gerenciador e escalonador de processos, de dispositivos de E/S e de sistemas de arquivos.
+Os softwares no modo núcleo tem permissão de executar todas as intruções e acessar todo o hardware e os softwares de modo usuário não tem geralmente permissão de acessar as instruções de E/S e de proteção de memória.
+
+Questão 5:
+O ciclo básico de toda CPU é buscar a primeira instrução da memória, decodificá-la para determinar o seu tipo e operandos, executá-la, e então buscar, decodificar e executar as instruções subsequentes.
+
+Quuestão 6:
+Processador comum: é o que executa uma instrução em um ciclo de clock;
+Processador pipeline: é o que pode executar mais de uma instrução ao mesmo tempo. Enquanto ele executa o passo de uma instrução, um outro passo de outra instrução é executado.
+Processador superescalar: é o que possui múltiplas unidades de execução. Nesse modelo, permite a busca e decodificação de mais de uma instrução ao mesmo tempo, jogando-as em um buffer de instruções até que possam ser executadas por uma unidade de execução.
+
+Questão 7:
+Uma chamada de sistema serve para um processo de modo usuário utilizar os serviços do sistema operacional. Por meio de uma instrução TRAP, chaveia de uma instrução de modo usuário para modo núcleo e passa o controle para o sistema operacional, após ser terminado, o controle retorna ao programa.
+
+Questão 8:
+São os microprocessos dentro de um processo, executados quase em paralelos. Threads de um processo compartilham o mesmo espaço de endereçamento e tem sua própria pilha, que contém estrutura para cada rotina chamada (chamadas de sistema). <falta terminar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
