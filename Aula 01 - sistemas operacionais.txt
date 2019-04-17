@@ -23,6 +23,7 @@
   Nessa época houve um desenvolvimento em meados da década de 1980 do crescimento das redes de computadores pessoais executando sistemas operacionais de rede e sistemas operacionais distribuídos (TANENBAUM e VAN STEEN, 2007). Em um sistema operacional de rede, os usuários estão conscientes da existência de múltiplos computadores e podem conectar-se a máquinas remotas e copiar arquivos de uma máquina para outra. Cada máquina executa seu próprio sistema operacional e tem seu próprio usuário local (ou usuários). Um sistema operacional distribuído, por sua vez,  aparece para os seus usuários como um sistema monoprocessador tradicional, embora seja na realidade composto de múltiplos processadores. Os usuários não precisam saber onde os programas estão sendo executados ou onde estão localizados os seus arquivos; isso tudo deve ser cuidado automática e eficientemente pelo sistema operacional.
 
 3)
+Redução e aproveitamento melhor de componentes e criação de novas tecnologias de hardware. Podemos citar a passagem das válvulas para os transistores (que eram menores, mais econômicos e mais seguros), a criação dos circuitos integrados que embutiam em um único chip, milhares e até milhões de transistores, a criação de novas tecnologia como o SSD.
 
 4)
  Modo usuário: Editor de texto, Navegador Web;

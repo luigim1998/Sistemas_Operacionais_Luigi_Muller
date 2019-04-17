@@ -5,7 +5,7 @@ Questão 2:
 a multiprogramação era uma técnica que permitia a troca de um programa que não estava utilizando a CPU para outro utilizá-lo.
 
 Questão 3:
-Redução e aproveitamento de componentes e criação de novas tecnologias de hardware. Podemos citar a passagem das válvulas para os transistores (que eram menores, mais econômicos e mais seguros), a criação dos circuitos integrados que embutiam em um único chip, milhares e até milhões de transistores, a criação de novas tecnologia como o SSD.
+Redução e aproveitamento melhor de componentes e criação de novas tecnologias de hardware. Podemos citar a passagem das válvulas para os transistores (que eram menores, mais econômicos e mais seguros), a criação dos circuitos integrados que embutiam em um único chip, milhares e até milhões de transistores, a criação de novas tecnologia como o SSD.
 
 Questão 4:
 Modo usuário: editor de vídeo, navegador web;
