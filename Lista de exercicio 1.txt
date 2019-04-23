@@ -5,7 +5,7 @@ Questão 2:
 a multiprogramação era uma técnica que permitia a troca de um programa que não estava utilizando a CPU para outro utilizá-lo.
 
 Questão 3:
-Redução e aproveitamento de componentes e criação de novas tecnologias de hardware. Podemos citar a passagem das válvulas para os transistores (que eram menores, mais econômicos e mais seguros), a criação dos circuitos integrados que embutiam em um único chip, milhares e até milhões de transistores, a criação de novas tecnologia como o SSD.
+Redução e aproveitamento melhor de componentes e criação de novas tecnologias de hardware. Podemos citar a passagem das válvulas para os transistores (que eram menores, mais econômicos e mais seguros), a criação dos circuitos integrados que embutiam em um único chip, milhares e até milhões de transistores, a criação de novas tecnologia como o SSD.
 
 Questão 4:
 Modo usuário: editor de vídeo, navegador web;
@@ -24,10 +24,14 @@ Questão 7:
 Uma chamada de sistema serve para um processo de modo usuário utilizar os serviços do sistema operacional. Por meio de uma instrução TRAP, chaveia de uma instrução de modo usuário para modo núcleo e passa o controle para o sistema operacional, após ser terminado, o controle retorna ao programa.
 
 Questão 8:
-São os microprocessos dentro de um processo, executados quase em paralelos. Threads de um processo compartilham o mesmo espaço de endereçamento e tem sua própria pilha, que contém estrutura para cada rotina chamada (chamadas de sistema). <falta terminar>
+São os microprocessos dentro de um processo, executados quase em paralelos. Threads de um processo compartilham o mesmo espaço de endereçamento, tem sua própria pilha e que contém estrutura para cada rotina chamada (chamadas de sistema), são mais leves que os processos e são melhores para CPUs com paralelismo real.
+Um exemplo em um editor de texto seria uma thread responsável por salvar o arquivo, uma para interagir com o usuário e uma para analisar a ortografia.
 
+Questão 9:
+Threads de modo usuário dispensam o acesso ao modo núcleo e não são interrompidos por operações do núcleo. Não tem acesso as instruções de modo núcleo.
 
-
+Questão 10:
+enquanto um evento bloqueado está esperando por algum evento para desbloqueá-lo. Um thread pronto está programado para ser executado e o será tão logo chegue a sua vez.
 
 
 
