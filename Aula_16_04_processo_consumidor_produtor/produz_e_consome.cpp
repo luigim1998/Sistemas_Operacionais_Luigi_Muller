@@ -8,7 +8,7 @@ int start = 0;
 int end = 0;
 
 void * produz(void * threadid){
-	while(1){
+	while(true){
         end = (end+1)%TAM;
         vetor[end] = 1;
 		tamanho++;
@@ -16,7 +16,7 @@ void * produz(void * threadid){
 }
 
 void * consome(void * threadid){
-	while(1){
+	while(true){
         start = (start+1)%TAM;
         vetor[start] = 0;
 		tamanho--;
