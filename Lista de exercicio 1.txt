@@ -32,25 +32,3 @@ Threads de modo usuário dispensam o acesso ao modo núcleo e não são interrompido
 
 Questão 10:
 enquanto um evento bloqueado está esperando por algum evento para desbloqueá-lo. Um thread pronto está programado para ser executado e o será tão logo chegue a sua vez.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
