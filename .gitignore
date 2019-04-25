@@ -5,6 +5,10 @@
 
 *.out
 
+*.class
+
 Aula_16_04_processo_consumidor_produtor/.vscode/*
 
 Aula_23_04_semaforo/.vscode/*
+
+Aula_25_04_Java_monitor/.vscode/*
