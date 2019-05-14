@@ -1,0 +1,5 @@
+Algoritmo de Substituição de páginas primeiro a entrar e primeiro a sair: 
+	O sistema operacional mantém uma lista de todas as páginas atualmente na memória, com a chegada mais recente no fim e a mais antiga na frente. No caso de falta de página, a página mais antiga é removida e a nova é colocada no final. Porém, uma página antiga ainda pode ser útil.
+
+ Algoritmo de substituição de páginas usadas menos recentemente
+	O sistema operacional mantém uma lista de todas as páginas atualmente na memória, toda vez que uma página é referenciada, ela é jogada para a frente da lista e a mais antiga fica para trás. Quando há falta de página, a mais antiga é apagada e a nova é colocada na frente. O custo computacional é maior devido a necessidade de atualiazação a cada referência.
