@@ -1,0 +1,1 @@
+digite "make" no terminal depois de concluir o  código
