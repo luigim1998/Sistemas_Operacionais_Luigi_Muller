@@ -1,6 +1,6 @@
-obj-m = hello.o
-KVERSION = 4.15.0-47-generic
+obj-m+=hello.o
+
 all:
-	make -C /lib/modules/$(KVERSION)/build M=$(PWD) modules
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 clean:
-	make -C /lib/modules/$(KVERSION)/build M=$(PWD) clean
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
